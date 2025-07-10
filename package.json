@@ -1,0 +1,16 @@
+{
+  "name": "node-database-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app that connects to database",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3"
+  },
+  "keywords": ["nodejs", "database", "postgresql"],
+  "author": "",
+  "license": "ISC"
+}
