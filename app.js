@@ -6,6 +6,7 @@ const url = require('url');
 let dbStatus = 'Not checked';
 
 async function connectToDatabase() {
+  console.log('DATABASE_HOSTNAME:', process.env.DATABASE_HOSTNAME);
   const client = new Client({
     host: process.env.DATABASE_HOSTNAME,
     port: process.env.DATABASE_PORT || 5432,
